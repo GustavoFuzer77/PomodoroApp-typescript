@@ -9,7 +9,7 @@
 body{
     font-family: sans-serif;
     background: rgba(36, 36, 243, 0.5);
-    transition: background-color 300ms ease-in-out;
+    transition: background-color 900ms ease-in-out;
 }
 
 .container{
@@ -67,7 +67,7 @@ body{
   cursor: pointer;
   color: #2b2b2b;
   font-size: 1rem;
-  transition: background-color 600ms ease-in-out;
+  transition: background-color 900ms ease-in-out;
   margin-top: 15px;
 }
 
@@ -91,9 +91,6 @@ body{
   font-size: 1.2rem;
 }
 
-.pause{
-  display: none;
-}
 
  @media (min-width: 1024px){
   .container{

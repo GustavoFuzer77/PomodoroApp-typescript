@@ -2,7 +2,7 @@ import React from "react";
 import { SpanBar ,FillerStyles, ContainerStyles } from './style';
 
 interface Props {
-  complete: string;
+  complete: boolean;
   timeBar: string;
 }
 
@@ -12,7 +12,7 @@ export function Progress(props: Props): JSX.Element {
 
   return (
     <ContainerStyles>
-      <FillerStyles>
+      <FillerStyles timeBar={timeBar}>
         <SpanBar>{timeBar}</SpanBar>
       </FillerStyles>
     </ContainerStyles>
